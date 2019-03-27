@@ -72,7 +72,10 @@
     <Folder Include="music\__pycache__\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="music\templates\music\album_form.html" />
+    <Content Include="music\templates\music\base.html" />
     <Content Include="music\templates\music\details.html" />
+    <Content Include="music\templates\music\form-template.html" />
     <Content Include="music\templates\music\index.html" />
     <Content Include="music\__pycache__\__init__.cpython-37.pyc" />
     <Content Include="requirements.txt" />

@@ -8,7 +8,10 @@ urlpatterns = [
 
     #/music/712/
     url(r'^(?P<pk>[0-9]+)/$', views.DetailsView.as_view(), name='details'),
-
-
+    
+    # msuic/album/add/
+    url(r'album/add/$', views.AlbumCreate.as_view(), name='add_album'),
+    
+    
     #url(r'^(?P<album_id>[0-9]+)/favorite/$', views.favorite, name='favorite'),
     ]
