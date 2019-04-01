@@ -46,6 +46,9 @@
     <Compile Include="music\apps.py" />
     <Compile Include="music\migrations\__init__.py" />
     <Compile Include="music\models.py" />
+    <Compile Include="music\forms.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="music\tests.py" />
     <Compile Include="music\urls.py">
       <SubType>Code</SubType>
@@ -151,6 +154,9 @@
     <Content Include="music\templates\music\details.html" />
     <Content Include="music\templates\music\form-template.html" />
     <Content Include="music\templates\music\index.html" />
+    <Content Include="music\templates\music\registration_form.html">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="music\__pycache__\__init__.cpython-37.pyc" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
